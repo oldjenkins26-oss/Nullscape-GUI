@@ -1109,7 +1109,7 @@ mainTab:CreateButton({
 mainTab:CreateDivider()
 magSlider = mainTab:CreateSlider({
     Name = "Gift Collection Range",
-    Range = {1, 30},
+    Range = {1, 100},
     Increment = 1,
     CurrentValue = 1,
     Callback = function(v)
